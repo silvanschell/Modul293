@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    align-self: center;
+    align-content: center;
+    color: white;
+    width: 12.5%;
+    height: 100%;
+    float: left;
+}
+
+.header {
+    background-color: grey;
+}
+
+.header:before,
+.header:after {
+    content: " ";
+    display: table;
+}
+
+.header:after {
+    clear: both;
+}
