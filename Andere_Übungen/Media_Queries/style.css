@@ -1,0 +1,75 @@
+body {
+     background-color: black;
+}
+
+@Media (min-width: 500px) {
+    body{
+        background-color: red;
+    }
+}
+
+@Media (min-width: 580px) {
+    body{
+        background-color: orangered;
+    }
+}
+
+@Media (min-width: 660px) {
+    body{
+        background-color: orange;
+    }
+}
+
+@Media (min-width: 720px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+@Media (min-width: 800px) {
+    body{
+        background-color: yellowgreen;
+    }
+}
+
+@Media (min-width: 880px) {
+    body{
+        background-color: green;
+    }
+}
+
+@Media (min-width: 960px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@Media (min-width: 1040px) {
+    body{
+        background-color: cyan;
+    }
+}
+
+@Media (min-width: 1120px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@Media (min-width: 1250px) {
+    body{
+        background-color: palevioletred;
+    }
+}
+
+@Media (min-width: 1300px) {
+    body{
+        background-color: violet;
+    }
+}
+
+@Media (min-width: 1400px) {
+    body{
+        background-color: darkviolet;
+    }
+}
